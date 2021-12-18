@@ -101,3 +101,92 @@
 # print(max(numbers))  # Принт максимального значения списка
 
 
+# users = ["Ivan", "Serhii"]
+# print(users)
+# users.append("Ana")
+# print(users)
+# users.insert(0, "Egor")
+# print(users)
+# print(users.index("Ivan"))
+# users.pop(1)
+# print(users)
+# last_user = users[-1]
+# users.remove(last_user)
+# print(users)
+# users.clear()
+# print(users)
+
+# autobrands = ["Audi", "BMW", "Mazda"]
+# item = input("Введите марку авто: ")
+# if item in autobrands:
+#     autobrands.remove(item)
+#     print("Авто продано")
+# else:
+#     print("Неизвестное авто")
+# print(autobrands)
+
+
+# autos = ["Audi", "BMW", "Mazda"]
+#
+#
+# def check_auto(x):
+#     item = input("Введите марку авто: ")
+#     if item in x:
+#         x.remove(item)
+#         print("Авто продано")
+#         return x
+#     else:
+#         print("Неизвестное авто")
+#         return x
+#
+#
+# print(check_auto(autos))
+
+
+# name = input("Введите имя пользователя: ")
+# users = ["Ivan", "Serhii", "Ivan", "Serhii", "Ana"]
+# print(users.count(name))
+
+
+# numbers = [2, -4, 8, 1, -10, 2, 8, 4, 100]
+# numbers2 = [99, -1, 0, 6, 1, 9, 100, -7]
+# numbers.sort()
+# print(numbers)
+# print(sorted(numbers2))
+# print(min(numbers))
+# print(max(numbers))
+# print(min(numbers2))
+# print(max(numbers2))
+
+
+# users1 = ["Ivan", "Serhii", "Ana"]
+# users2 = users1
+# print(users1)
+# print(users2)
+# users2.append(1)
+# print(users1)
+# print(users2)
+
+
+# import copy
+#
+#
+# users1 = ["Ivan", "Serhii", "Ana"]
+# users2 = copy.deepcopy(users1)
+# print(users1)
+# print(users2)
+# users1.append(1)
+# print(users1)
+# print(users2)
+
+
+# users = ["Victor", "Vera", "Masha", "Misha", "Katya", "Serhii", "Ivan", "Ana"]
+# print(users[2:4])
+# print(users[:4])
+# print(users[4:])
+
+
+users1 = ["Ivan", "Ana"]
+users2 = ["Serhii", "Egor"]
+users3 = users1 + users2
+print(users3)
