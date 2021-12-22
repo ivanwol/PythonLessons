@@ -103,23 +103,23 @@
 
 # users = ["Ivan", "Serhii"]
 # print(users)
-# users.append("Ana")
+# users.append("Ana")  # Добавление элемента в конец списка
 # print(users)
-# users.insert(0, "Egor")
+# users.insert(0, "Egor")  # Добавление элемента по индексу
 # print(users)
-# print(users.index("Ivan"))
-# users.pop(1)
+# print(users.index("Ivan"))  # Вывод индекса элемента
+# users.pop(1)  # Удаление элемента по индексу
 # print(users)
-# last_user = users[-1]
-# users.remove(last_user)
+# last_user = users[-1]  # Присвоение элементу значение последнего элемента в списке
+# users.remove(last_user)  # Удаление элемента по значению
 # print(users)
-# users.clear()
+# users.clear()  # Полное очищение списка
 # print(users)
 
 # autobrands = ["Audi", "BMW", "Mazda"]
-# item = input("Введите марку авто: ")
-# if item in autobrands:
-#     autobrands.remove(item)
+# item = input("Введите марку авто: ")  # Переменная, которая принимает значение от пользователя
+# if item in autobrands:  # Проверка: есть ли элемент в списке
+#     autobrands.remove(item)  # Удаление элемента по значению
 #     print("Авто продано")
 # else:
 #     print("Неизвестное авто")
@@ -129,7 +129,7 @@
 # autos = ["Audi", "BMW", "Mazda"]
 #
 #
-# def check_auto(x):
+# def check_auto(x):  # Создание функции, которая приниает параметром лист
 #     item = input("Введите марку авто: ")
 #     if item in x:
 #         x.remove(item)
@@ -140,53 +140,71 @@
 #         return x
 #
 #
-# print(check_auto(autos))
+# print(check_auto(autos))  # Вызов функции
 
 
 # name = input("Введите имя пользователя: ")
 # users = ["Ivan", "Serhii", "Ivan", "Serhii", "Ana"]
-# print(users.count(name))
+# print(users.count(name))  # Вывод количества повторений определеного элемента
 
 
 # numbers = [2, -4, 8, 1, -10, 2, 8, 4, 100]
 # numbers2 = [99, -1, 0, 6, 1, 9, 100, -7]
-# numbers.sort()
+# numbers.sort()  # Сортирует список от меньшего до большего
 # print(numbers)
-# print(sorted(numbers2))
-# print(min(numbers))
-# print(max(numbers))
+# print(sorted(numbers2))  # Сортирует список от меньшего до большего
+# print(min(numbers))  # Вывод минимального значения списка
+# print(max(numbers))  # Вывод максимального значения списка
 # print(min(numbers2))
 # print(max(numbers2))
 
 
 # users1 = ["Ivan", "Serhii", "Ana"]
-# users2 = users1
+# users2 = users1  # Присвоение переменной значение листа
 # print(users1)
 # print(users2)
-# users2.append(1)
+# users2.append(1)  # Добавление элемента в конец списка
 # print(users1)
 # print(users2)
 
 
-# import copy
+# import copy  # Импорт бибилиоеки copy
 #
 #
 # users1 = ["Ivan", "Serhii", "Ana"]
-# users2 = copy.deepcopy(users1)
+# users2 = copy.deepcopy(users1)  # Вызываем метод бибилотеки copy, копируем уникальный лист
 # print(users1)
 # print(users2)
-# users1.append(1)
+# users1.append(1)  # Добавление элемента в конец списка
 # print(users1)
 # print(users2)
 
 
 # users = ["Victor", "Vera", "Masha", "Misha", "Katya", "Serhii", "Ivan", "Ana"]
-# print(users[2:4])
+# print(users[2:4])  # Вывод обрезаного листа
 # print(users[:4])
 # print(users[4:])
 
 
-users1 = ["Ivan", "Ana"]
-users2 = ["Serhii", "Egor"]
-users3 = users1 + users2
-print(users3)
+# users1 = ["Ivan", "Ana"]
+# users2 = ["Serhii", "Egor"]
+# users3 = users1 + users2  # Соединение двух списков в один
+# print(users3)
+
+
+# users = [  # Создание списка
+#     ["Ivan", 14],  # Создание списка в списке
+#     ["Victor", 18],
+#     ["Ana", 35]
+# ]  # Закрытие внешнего списка
+# print(users)  # Вывод списка users
+# print(users[0])  # Вывод листа с 0 индексом
+# print(users[0][1])  # Вывод элемента с индексом 1, в списке с индексом 0, в списке
+# print(users[2][0])
+#
+# for user in users:  # Создание внешнего цикла перебора
+#     for i in user:  # Создание внутренего цикла перебора
+#         print(i)
+
+
+
