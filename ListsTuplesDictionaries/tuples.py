@@ -63,3 +63,13 @@
 #     print("Элемент найден")
 # else:
 #     print("Такого элемента здесь нет")
+
+
+# countries = (
+#     ("Ukraine", 7),
+#     ("Italy", 10, ("Rim", 9))
+# )
+#
+# print(countries)
+
+
