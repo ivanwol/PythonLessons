@@ -12,6 +12,8 @@
 
 
 from math import sqrt  # Импорт функции sqrt с библиотеки math
+
+
 # print(sqrt(121))
 
 
@@ -131,7 +133,6 @@ from math import sqrt  # Импорт функции sqrt с библиотек�
 # print(s / len(c))
 
 
-
 # suma = 0
 # pow_finally = 0
 # while True:
@@ -184,3 +185,105 @@ from math import sqrt  # Импорт функции sqrt с библиотек�
 #
 #
 # print(function(number1, number2))
+
+
+# question = input("Введите трехзначное число: ")
+# def fun_num(x):
+#     for i in x:
+#         print(i)
+#
+#
+# fun_num(question)
+
+
+# question = input("Введите четырехзначное число: ")
+#
+#
+# def number(x):
+#     c = 0
+#     for i in x:
+#         c = c + int(i)
+#     return c
+#
+#
+# print(number(question))
+
+
+# question1 = int(input("Введите число: "))
+# question2 = int(input("Введите число: "))
+# question3 = int(input("Введите число: "))
+# all_numbers = [question1, question2, question3]
+# print(max(all_numbers))
+
+
+# def num_check():
+#     x = int(input("Введите число: "))
+#     a = int(input("Введите число: "))
+#     b = int(input("Введите число: "))
+#     if a <= x <= b or a >= x >= b:
+#         return True
+#     else:
+#         return False
+#
+#
+# print(num_check())
+
+
+# def null_funct():
+#     numbers = []
+#     while True:
+#         number = int(input("Введите число: "))
+#         if number == 0:
+#             break
+#         else:
+#             numbers.append(number)
+#     return len(numbers)
+#
+#
+# print(null_funct())
+
+
+# def null_funct():
+#     c = 0
+#     while True:
+#         number = int(input("Введите число: "))
+#         if number == 0:
+#             break
+#         else:
+#             c = c + number
+#     return c
+#
+#
+# print(null_funct())
+
+
+# def null_funct():
+#     numbers = []
+#     n = int(input("Введите число n: "))
+#     while True:
+#         number = int(input("Введите число: "))
+#         if number == 0:
+#             break
+#         else:
+#             numbers.append(number)
+#     if n in numbers:
+#         return numbers.count(n)
+#     else:
+#         return 0
+#
+#
+# print(null_funct())
+
+
+def null_funct():
+    numbers = []
+    while True:
+        number = int(input("Введите число: "))
+        if number == 0:
+            break
+        else:
+            numbers.append(number)
+    return numbers.count(max(numbers))
+
+
+print(null_funct())
