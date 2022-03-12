@@ -45,3 +45,19 @@
 # phone2 = phone1.replace("!", "")
 # phone3 = phone2.replace(" ", "")
 # print(phone3)
+
+# text = "Это был огромный, в два обхвата дуб, с обломанными ветвями и с обломанной корой"
+# print(text)
+# splitted_text = text.split()  # Разделение строки по словам
+# print(splitted_text)
+# splitted_text2 = text.split(",")  # Разделение строки по запятым
+# print(splitted_text2)
+# splitted_text3 = text.split(" ", 5)  # Разделение строки по пробелу до определеного момета
+# print(splitted_text3)
+
+# words = ["Let", "me", "speak", "from", "my", "heart", "in", "English"]
+# print(words)
+# sentence = " ".join(words)  # Объединение элементов списка в строку с разделителем пробел!
+# print(sentence)
+# sentence2 = "!".join(words)
+# print(sentence2)
