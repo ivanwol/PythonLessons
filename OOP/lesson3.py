@@ -65,34 +65,34 @@
 # tom.study()
 
 
-class Country:
-    def __init__(self, name):  # Создание конструктора, который принимает name
-        self.__name = name  # Создание атрибута класса
-
-    @property  # Описание аннотации gettera
-    def name(self):  # Создание метода name
-        return self.__name
-
-    def display_info(self):  # Создание метода display_info
-        print(f"country name: {self.__name}")
-
-
-class City:
-    def __init__(self, name):  # Создание конструктора, который принимает name
-        self.__name = name  # Создание атрибута класса
-
-    @property  # Описание аннотации gettera
-    def name(self):  # Создание метода name
-        return self.__name  # Возврат приватного атрибута
-
-    def info(self):  # Создание метода info
-        print(f"city name: {self.name}")
-
-
-class CountryCity(Country, City):  # Создание дочерного класса
-    pass
-
-
-italy = CountryCity("Italy")
-italy.display_info()
-italy.info()
+# class Country:
+#     def __init__(self, name):  # Создание конструктора, который принимает name
+#         self.__name = name  # Создание атрибута класса
+#
+#     @property  # Описание аннотации gettera
+#     def name(self):  # Создание метода name
+#         return self.__name
+#
+#     def display_info(self):  # Создание метода display_info
+#         print(f"country name: {self.__name}")
+#
+#
+# class City:
+#     def __init__(self, name):  # Создание конструктора, который принимает name
+#         self.__name = name  # Создание атрибута класса
+#
+#     @property  # Описание аннотации gettera
+#     def name(self):  # Создание метода name
+#         return self.__name  # Возврат приватного атрибута
+#
+#     def info(self):  # Создание метода info
+#         print(f"city name: {self.name}")
+#
+#
+# class CountryCity(Country, City):  # Создание дочерного класса
+#     pass
+#
+#
+# italy = CountryCity("Italy")
+# italy.display_info()
+# italy.info()

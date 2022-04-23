@@ -173,3 +173,13 @@
 #
 #
 # print(all_unique([45, 55, 60, 37, 100, 105, 220]))
+
+lst = [1, 2, 3, 4, 5]
+lst.append("HI")
+lst[0] = 3
+lst.append([6, 7, 8])
+lst[3] = (9, 10)
+print(lst[4])
+lst.pop(1)
+print(lst.count(3))
+print(lst)
